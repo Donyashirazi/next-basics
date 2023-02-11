@@ -1,0 +1,5 @@
+.full-container {
+	color: rgb(255, 255, 255);
+	display: flex;
+	flex-direction: row;
+}
