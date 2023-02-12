@@ -1,12 +1,17 @@
 import React from 'react';
 import styles from './style.module.css';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const NavBar = () => {
 	return (
 		<nav className="full-container">
 			<div className="logo">
-				<h1>List</h1>
+				<Image
+					src="/pc.png"
+					width={500}
+					height={200}
+				/>
 			</div>
 			<ul>
 				<li>
